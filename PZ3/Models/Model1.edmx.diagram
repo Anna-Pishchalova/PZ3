@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c6e997c2c114b3eaaaa7aa27c6c815e" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Airplane" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Awards" Width="1.5" PointX="7.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.City_end" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Class" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Clients" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Discount" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Equipment" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Flight" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Role" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Salary" Width="1.5" PointX="10" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Staff" Width="1.5" PointX="12.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Status_Flight" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Status_S" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Taxes" Width="1.5" PointX="7.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Tickets" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User" Width="1.5" PointX="7.5" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Airplane_Equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Flight_Airplane" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Salary_Awards" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Flight_City_end" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Tickets_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Clients_Tickets" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Clients_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Tickets_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Flight_Status_Flight" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Tickets_Flight" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Salary_Status_S" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Salary_Taxes" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Staff_Salary" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Staff_Status_S" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Staff_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
